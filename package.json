@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-codeverse",
+  "version": "1.0.0",
+  "description": "Codeverse ESLint Configuration",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Americademy, Inc",
+    "email": "tech@americademy.com",
+    "url": "https://www.americademy.com"
+  },
+  "homepage": "https://github.com/americademy/eslint-config-codeverse#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/americademy/eslint-config-codeverse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/americademy/eslint-config-codeverse/issues"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "codeverse",
+    "shareable",
+    "standards"
+  ],
+  "scripts": {
+    "test": "test"
+  }
+}
