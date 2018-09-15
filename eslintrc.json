@@ -18,6 +18,8 @@
   },
 
   "rules": {
-    "object-curly-spacing": ["error", "always"]
+    "object-curly-spacing": ["warn", "always"],
+    "keyword-spacing": ["warn", { "before": true }],
+    "prefer-const": "warn"
   }
 }
