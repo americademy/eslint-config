@@ -33,10 +33,10 @@ Add this to your `.eslintrc.json` (or equivalent) file:
 can override settings from this shareable config by adding them directly into your
 `.eslintrc` file.
 
-Next, add a `.prettierc.js`:
+Next, add a `.prettierrc.js`:
 
 ```js
-module.exports = require('@codeverse/eslint-config/prettierrc')
+module.exports = require('@codeverse/eslint-config/prettierrc');
 ```
 
 Finally, if you're planning on using `// @flow` to type a file, download the appropriate version of
