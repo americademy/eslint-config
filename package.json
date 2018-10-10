@@ -1,21 +1,20 @@
 {
-  "name": "eslint-config-codeverse",
+  "name": "@codeverse/eslint-config",
   "version": "1.0.0",
-  "description": "Codeverse ESLint Configuration",
+  "description": "Codeverse's shared linter configuration",
   "main": "index.js",
   "license": "MIT",
-  "author": {
-    "name": "Americademy, Inc",
-    "email": "tech@americademy.com",
-    "url": "https://www.americademy.com"
-  },
-  "homepage": "https://github.com/americademy/eslint-config-codeverse#readme",
+  "contributors": [
+    "Dave Arel <dave@codeverse.com>",
+    "ELLIOTTCABLE <ec@codeverse.com>"
+  ],
+  "homepage": "https://github.com/americademy/eslint-config",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/americademy/eslint-config-codeverse.git"
+    "url": "https://github.com/americademy/eslint-config.git"
   },
   "bugs": {
-    "url": "https://github.com/americademy/eslint-config-codeverse/issues"
+    "url": "https://github.com/americademy/eslint-config/issues"
   },
   "keywords": [
     "eslint",
@@ -24,7 +23,7 @@
     "shareable",
     "standards"
   ],
-  "scripts": {
-    "test": "test"
+  "peerDependencies": {
+    "eslint": ">= 3"
   }
 }

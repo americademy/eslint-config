@@ -1,0 +1,22 @@
+# EditorConfig is awesome: http://EditorConfig.org
+root = true;
+
+[*]
+# Don't commit lingering whitespace
+trim_trailing_whitespace = true
+# Ensure Unix-style newlines
+end_of_line = lf
+# Ensure there's a newline at the end of each file
+insert_final_newline = true
+# Use two spaces for normal, space-based indentation
+indent_size = 2
+
+
+# JavaScript-world files
+[*.{js,mjs,es6,json,jsx,ts,tsx,coffee}]
+charset = utf-8
+indent_style = space
+
+
+[Makefile]
+indent_style = tab

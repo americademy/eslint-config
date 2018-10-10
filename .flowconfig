@@ -1,0 +1,28 @@
+[ignore]
+<PROJECT_ROOT>/dist/.*
+<PROJECT_ROOT>/test/.*
+<PROJECT_ROOT>/lib/.*
+
+[include]
+
+[libs]
+
+[lints]
+all=warn
+
+[options]
+include_warnings=true
+suppress_comment= \\(.\\|\n\\)*TYPEME
+suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe
+suppress_type=TOTYPE
+
+[strict]
+nonstrict-import
+unclear-type
+unsafe-getters-setters
+untyped-import
+untyped-type-import
+sketchy-null
+
+[version]
+^0.82.0
