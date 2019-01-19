@@ -39,13 +39,6 @@ Next, add a `.prettierrc.js`:
 module.exports = require('@codeverse/eslint-config/prettierrc');
 ```
 
-Finally, if you're planning on using `// @flow` to type a file, link the current version of the
-`.flowconfig`.
-
-```sh
-ln -s ./node_modules/@codeverse/eslint-config/.flowconfig ./.flowconfig
-```
-
 
 ## Learn more
 
