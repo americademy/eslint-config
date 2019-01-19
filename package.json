@@ -1,6 +1,6 @@
 {
   "name": "@codeverse/eslint-config",
-  "version": "2.0.0-pre.2",
+  "version": "2.0.0-pre.3",
   "description": "Codeverse's shared linter configuration",
   "main": "index.js",
   "license": "MIT",
