@@ -31,7 +31,7 @@ Add this to your `.eslintrc.json` (or equivalent) file:
 
 *Note: We omitted the `eslint-config` suffix here since it is automatically assumed by ESLint.* You
 can override settings from this shareable config by adding them directly into your
-`.eslintrc` file.
+`.eslintrc.json` file.
 
 Next, add a `.prettierrc.js`:
 

@@ -9,13 +9,16 @@ module.exports = {
   extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   rules: {
     strict: 0,
-    'no-undef': 2,
+    'no-undef': 'error',
     'no-tabs': 'error',
 
     // This is configured specifically to play well with Prettier. The name is misleading, it *does*
     // allow `template-literal ${strings}`; it just advises you to convert them back into simple
     // single-quotes if there's no interpolation.
-    quotes: ['quotes', 'double', { avoidEscape: true, allowTemplateLiterals: false }],
+    quotes: ['warn', 'single', { avoidEscape: true, allowTemplateLiterals: false }],
+
+    // Noisy rules. Open to debate about these!
+    'sort-keys': 'off',
 
     'prettier/prettier': 'warn',
   },

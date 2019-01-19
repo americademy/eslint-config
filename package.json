@@ -28,6 +28,11 @@
     "prettier": ">= 1"
   },
   "dependencies": {
+    "eslint-config-prettier": "^3.5.0",
     "eslint-plugin-prettier": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "prettier": "^1.15.3"
   }
 }
