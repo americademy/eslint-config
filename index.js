@@ -1,12 +1,17 @@
 module.exports = {
+  parser: 'typescript-eslint-parser',
   parserOptions: {
-    ecmaVersion: 2018,
     sourceType: 'module',
+    jsx: true,
   },
 
-  plugins: ['prettier'],
+  plugins: ['typescript', 'prettier'],
 
-  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
+  extends: [
+    'eslint:recommended',
+    'typescript-recommended',
+    'plugin:prettier/recommended',
+  ],
   rules: {
     strict: 0,
     'no-undef': 'error',
